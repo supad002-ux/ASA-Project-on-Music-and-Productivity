@@ -9,7 +9,6 @@
 import random
 import math
  
-# ── optional imports (used only if available) ─────────────────────
 try:
     import numpy as np
     import matplotlib.pyplot as plt
@@ -320,7 +319,6 @@ def generate_plots(x_vals, y_vals, reg):
  
     plt.tight_layout()
     plt.savefig("ai_gpa_plots.png", dpi=150, bbox_inches="tight")
-    print("\n  📊  Plots saved → ai_gpa_plots.png")
     plt.show()
  
 # ══════════════════════════════════════════════════════════════════
